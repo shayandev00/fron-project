@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
-                        <a href="#" class="logo">
+                        <a href="https://google.com" class="logo">
                             <img src="./assets/image/new/logo.png" alt="Softy Pinko"/>
                         </a>
                         <ul class="nav" >
@@ -38,13 +38,14 @@
                             <span>Menu</span>
                         </a>
                         <!-- ***** Menu End ***** -->
+
                     </nav>
                 </div>
             </div>
         </div>
     </header>
     <script>
-        $(document).ready(function(){
+         $(document).ready(function(){
   $('ul li a').click(function(){
     $('li a').removeClass("active");
     $(this).addClass("active");
@@ -80,7 +81,7 @@
 })(jQuery);
 
 
-0
+
 
 // $(document).on("click", ".main-nav", function () {
 //     $("#features").animate({
@@ -117,8 +118,16 @@
                         
                     </div>
                     <div class="div">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#b342f5" fill-opacity="1" d="M0,224L48,202.7C96,181,192,139,288,138.7C384,139,480,181,576,197.3C672,213,768,203,864,181.3C960,160,1056,128,1152,138.7C1248,149,1344,203,1392,229.3L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-                 </div> 
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#b342f5" fill-opacity="1" d="M0,224L48,202.7C96,181,192,139,288,138.7C384,139,480,181,576,197.3C672,213,768,203,864,181.3C960,160,1056,128,1152,138.7C1248,149,1344,203,1392,229.3L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+                         -->
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                            <path fill="#b26ed8" fill-opacity="1" d="M0,128L48,106.7C96,85,192,43,288,64C384,85,480,171,576,176C672,181,768,107,864,96C960,85,1056,139,1152,181.3C1248,224,1344,256,1392,272L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+                          </svg>
+                 </div>
+
+
+
+
      <!-- Features -->
 
 <section class="section home-feature">
@@ -610,7 +619,7 @@ $(window).scroll(function() {
         <div class="row">
             <div class="col-lg-8 col-md-6 col-sm-12">
                 <div class="contact-form">
-                    <form id="contact" action="" method="get">
+                    <form id="contact" action="/register-form.php" method="post">
                       <div class="row">
                         <div class="col-lg-6 col-md-12 col-sm-12">
                           <fieldset>
@@ -688,5 +697,4 @@ $(window).scroll(function() {
 <script src="./assets/js/scrollreveal.min.js"></script>
 
 <script src="./assets/js/imgfix.min.js"></script>
-</body>
-</html>
+
