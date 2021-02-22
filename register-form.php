@@ -34,7 +34,6 @@ $sub = $_POST['sub'];
     $username = "root";
     $password = "";
     $db = "test2";
-
 try {
         $conn = new PDO("mysql:host=$servername; dbname=$db", $username, $password);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -63,7 +62,7 @@ if (!valid_email($email)) {
 
 $number = $_POST['number'];
 function valid_number($num){
-    return (!preg_match("^(\+98|0)?9\d{9}$" , $num)) ? FALSE : TRUE;
+    return (!preg_match("'^(\\+98|0|98)?9\\d{9}$'" , $num)) ? FALSE : TRUE;
 }
 if (!valid_number($number)) {
     echo "Invalid number address." . '<br>';
