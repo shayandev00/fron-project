@@ -34,7 +34,8 @@ $sub = $_POST['sub'];
     $username = "root";
     $password = "";
     $db = "test2";
-
+    echo 'reza';
+    echo 'I love mamad kachal';
 try {
         $conn = new PDO("mysql:host=$servername; dbname=$db", $username, $password);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
