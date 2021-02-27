@@ -551,7 +551,7 @@ $(window).scroll(function() {
                     </div>
                     <div class="blog-content">
                         <h3>
-                            <a href="blog.html" target="_blank" style="text-decoration: none;">Vivamus ac vehicula dui</a>
+                            <a href="blog.php" target="_blank" style="text-decoration: none;">Vivamus ac vehicula dui</a>
                         </h3>
                         <div class="text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, amet deserunt tempora veritatis harum ea!tempora veritats
@@ -567,7 +567,7 @@ $(window).scroll(function() {
                     </div>
                     <div class="blog-content">
                         <h3>
-                            <a style="text-decoration: none;" target="_blank" href="blog.html">Phasellus convallis augue</a>
+                            <a style="text-decoration: none;" target="_blank" href="blog.php">Phasellus convallis augue</a>
                         </h3>
                         <div class="text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, amet deserunt tempora veritatis harum ea!tempora veritats
